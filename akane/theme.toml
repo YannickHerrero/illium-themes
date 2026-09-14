@@ -1,0 +1,21 @@
+# Personal Winarchy adaptation of Grenish/omarchy-akane-theme. See SOURCES.md.
+name = "Akane"
+mode = "dark"
+background = "#12101c"
+surface = "#221c2c"
+overlay = "#2c2438"
+text = "#f0c4a8"
+subtext = "#8a6e6c"
+accent = "#e15a48"
+red = "#d6453d"
+green = "#7e9a6a"
+yellow = "#f0b45a"
+
+ansi = [
+  "#12101c", "#d6453d", "#7e9a6a", "#f0b45a",
+  "#5b7fa8", "#c45c78", "#4a9bb0", "#f0c4a8",
+]
+brights = [
+  "#6d5a68", "#f06a58", "#9ab57e", "#f6cc7a",
+  "#7a9cc4", "#e07a94", "#7ec4d2", "#f7e0cc",
+]
