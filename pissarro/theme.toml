@@ -1,0 +1,22 @@
+# Winarchy adaptation of mattbbia/pissarro. See SOURCES.md.
+name = "Pissarro"
+mode = "light"
+background = "#f1f3ea"
+surface = "#f2f4ec"
+overlay = "#b5b6b0"
+text = "#1a1d05"
+subtext = "#535644"
+accent = "#68559b"
+red = "#585000"
+green = "#50419a"
+yellow = "#687013"
+
+# Original Alacritty palette, including its intentionally unconventional hues.
+ansi = [
+  "#f1f3ea", "#585000", "#50419a", "#687013",
+  "#68559b", "#527100", "#8252ba", "#1a1d05",
+]
+brights = [
+  "#83847d", "#7a7300", "#735ed0", "#8a9605",
+  "#8d74ce", "#719800", "#aa6ef2", "#373c1a",
+]
