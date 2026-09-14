@@ -7,6 +7,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `pissarro` | Clair — crème, olive, lavande | 5 peintures |
 | `akane` | Sombre — bleu-violet, vermillon, or | 8 paysages |
 | `dracula` | Sombre — palette Dracula | 3 images |
+| `snow` | Clair — monochrome blanc, noir et gris | 3 images |
 
 ## Installer
 
@@ -23,7 +24,7 @@ Sur cette machine, les sources sont aussi accessibles depuis Windows :
 winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\pissarro"
 ```
 
-Les trois packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
+Les quatre packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
 
 L'installation conserve le format compatible avec WezTerm : `themes/pissarro.toml` pour les couleurs et `themes/pissarro/wallpapers/` pour les images. Aucune modification de l'intégration WezTerm n'est nécessaire.
 
@@ -44,6 +45,6 @@ Pour ajouter simplement une image à un thème déjà installé, la copier dans 
 
 ## Sources et droits
 
-Chaque pack contient un `SOURCES.md` avec la révision amont exacte et les sommes SHA-256 des fichiers sources. Les palettes terminal reproduisent les 16 couleurs Alacritty d'origine. Les images sont conservées sans recompression.
+Chaque pack contient un `SOURCES.md` avec la révision amont exacte et les sommes SHA-256 des fichiers sources. Les palettes terminal préservent les 16 couleurs du fichier Alacritty d'origine ou, pour les thèmes Quattro comme Snow, celles définies par `colors.toml` et le template Alacritty officiel d'Omarchy. Les images sont conservées sans recompression.
 
-Pissarro et Dracula conservent leurs licences MIT amont. **Akane ne fournit pas de licence explicite dans la révision consultée : ce pack reste une adaptation locale personnelle, et sa redistribution publique doit être clarifiée avec l'auteur.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.
+Pissarro et Dracula conservent leurs licences MIT amont. **Akane et Snow ne fournissent pas de licence explicite dans les révisions consultées : ces packs restent des adaptations locales personnelles, et leur redistribution publique doit être clarifiée avec les auteurs et les ayants droit des images.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.

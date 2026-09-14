@@ -1,0 +1,14 @@
+# Winarchy adaptation of bjarneo/omarchy-snow-theme. See README.md and SOURCES.md.
+name = "Snow"
+mode = "light"
+background = "#ffffff"
+surface = "#f7f7f7"
+overlay = "#e6e6e6"
+text = "#0a0a0a"
+subtext = "#565656"
+accent = "#0a0a0a"
+red = "#0a0a0a"
+green = "#0a0a0a"
+yellow = "#0a0a0a"
+ansi = ["#ffffff", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a"]
+brights = ["#919191", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#0a0a0a", "#000000"]
