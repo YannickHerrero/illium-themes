@@ -1,0 +1,21 @@
+# Winarchy adaptation of dracula/omarchy. See SOURCES.md.
+name = "Dracula"
+mode = "dark"
+background = "#282a36"
+surface = "#21222c"
+overlay = "#44475a"
+text = "#f8f8f2"
+subtext = "#6272a4"
+accent = "#bd93f9"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+
+ansi = [
+  "#21222c", "#ff5555", "#50fa7b", "#f1fa8c",
+  "#bd93f9", "#ff79c6", "#8be9fd", "#f8f8f2",
+]
+brights = [
+  "#6272a4", "#ff6e6e", "#69ff94", "#ffffa5",
+  "#d6acff", "#ff92df", "#a4ffff", "#ffffff",
+]
