@@ -6,7 +6,13 @@ Pinned revision: `dcb68cf4156b64302b9f94fd697b7b65110b59fe`
 
 Local Winarchy adaptation; no upstream application configuration is executed.
 
+## Picker preview
+
+Upstream `screenshot.png` is installed as `preview.png`, byte-for-byte unchanged (2560 × 1440), from the revision above. It depicts Omarchy, not Winarchy. The name change follows Winarchy's preview discovery convention; the upstream MIT notice remains in LICENSE.
+
 ## SHA-256 of source files
+
+- `screenshot.png` → `preview.png`: `4f9dda4f63bc33ab1df52d932efaef3dadde46607aa30218df3cb4eb318effb1`
 
 - `LICENSE`: `2d58b85d277b33f4866b1c3d11e0f43c72e0767ac4bfd70effb24ceda98abe69`
 - `alacritty.toml`: `e9de3a792548c8112168c1dd18b5651d1ebee2893975cda4ccd9c4c0430c87b8`

@@ -6,6 +6,8 @@ The background, text, selection and all 16 terminal colors come from upstream `a
 
 Includes all three upstream wallpapers without resizing or recompression: `base.png`, `dracula-leaves-6272a4-dark.png`, and `dracula-mnt-282a36.png`.
 
+The visual picker uses upstream `screenshot.png`, copied unchanged as `preview.png`. It is a screenshot of Omarchy, not Winarchy; see `SOURCES.md` for the mapping and hash.
+
 The upstream MIT license is preserved in `LICENSE`; see `SOURCES.md` for the pinned revision and SHA-256 hashes.
 
 Install: `winarchyctl theme install <path-to-this-folder>`, then `winarchyctl theme set dracula`.
