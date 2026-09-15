@@ -6,7 +6,13 @@ Pinned revision: `bfe2285358552b4c2eb545db43c814a2ffe1b8df`
 
 Local Winarchy adaptation; no upstream application configuration is executed.
 
+## Picker preview
+
+`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (1800 × 1012). It is the author's preview artwork, not a screenshot of Winarchy. No lock-screen image is imported. Its licensing remains unclarified, as documented in README.md; this is a local personal asset, not a new redistribution grant.
+
 ## SHA-256 of source files
+
+- `preview.png`: `7a683de189a92b209d05f0364ce39074be8c00e723301d3a6f8af4c53fb802e9`
 
 - `alacritty.toml`: `001d785a3c76b5162ec5c286d2afcbf3050e3ccbcc25f6f648c47cb8a94c40ee`
 - `backgrounds/1-akane.jpg`: `af2cfa09c32322c29649d471228a546d779c08b4e35a640aef89370b34610baf`
