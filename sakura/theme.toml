@@ -1,0 +1,14 @@
+# Winarchy adaptation of bjarneo/omarchy-sakura-theme; see README.md and SOURCES.md.
+name = "Sakura"
+mode = "dark"
+background = "#0d0509"
+surface = "#230e18"
+overlay = "#853641"
+text = "#f0eaed"
+subtext = "#c6afba"
+accent = "#d9a56c"
+red = "#e85f6f"
+green = "#f29b9a"
+yellow = "#d4a882"
+ansi = ["#0d0509", "#e85f6f", "#f29b9a", "#d4a882", "#d9a56c", "#d1b399", "#e8c099", "#f0eaed"]
+brights = ["#7a5c66", "#ff7a8a", "#ffb5b4", "#e6ba94", "#ebb97e", "#e3c5ab", "#fbd2ab", "#ffffff"]
