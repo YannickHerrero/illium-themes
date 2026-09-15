@@ -20,6 +20,10 @@ All three upstream wallpapers are retained unchanged:
 - `2-snow.jpg` — minimal light background, 3840×2160.
 - `3-dothash-light.jpg` — full-resolution light wallpaper with the dothash mark, 3840×2160 (not a standalone UI icon).
 
+## Picker preview
+
+`preview.png` is the unchanged upstream Omarchy screenshot, used by Winarchy's visual picker. It does not claim to render Winarchy applications. Its source hash is recorded in `SOURCES.md`; the same local-only rights reservation below applies.
+
 ## Rights / distribution
 
 No LICENSE or explicit license statement was present in the upstream repository at the pinned revision. No permission to redistribute the theme or third-party photographs is inferred. This pack is retained for the requested local personal setup; clarify rights before publishing it. The MIT licenses of other packs do not apply here.
@@ -33,4 +37,4 @@ winarchyctl theme install <path-to-this-folder>
 winarchyctl theme set snow
 ```
 
-Or choose **Alt+Shift+Space → Theme → snow**. Wallpapers are available under **Wallpaper**, and **Ctrl+Alt+Shift+W** cycles them. Installation does not activate the theme automatically.
+Or open **Alt+Shift+Space → Theme**, type `snow` and press Enter. Wallpapers are available under **Wallpaper**, and **Ctrl+Alt+Shift+W** cycles them. Installation does not activate the theme automatically.

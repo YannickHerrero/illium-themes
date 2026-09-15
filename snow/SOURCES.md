@@ -6,7 +6,13 @@ Pinned revision: `bfccca5bda969bc619af9db9f37da91e9fd52947`
 
 No LICENSE or explicit licensing statement was present at this revision. No upstream scripts were executed.
 
+## Picker preview
+
+`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (3840 × 2160). It depicts Omarchy, not Winarchy. No permission to redistribute this screenshot or its depicted third-party content is inferred; it remains part of the local personal adaptation described in README.md.
+
 ## SHA-256 of source files
+
+- `preview.png`: `e017e08b012ac61d19cd61d2d59183cfc68acc804ab5df49ced8b32244395a86`
 
 - `README.md`: `a2c063aed504068f1246f74c40548236b1b657db0f524660edb3c97d9722303a`
 - `colors.toml`: `c77488902da4748244254d3f2438c17df78c0ca4a0f6015750ab4d2f6287dc34`
