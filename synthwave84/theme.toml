@@ -1,0 +1,14 @@
+# Winarchy adaptation of omacom/omarchy-synthwave84-theme; see README.md and SOURCES.md.
+name = "Synthwave '84"
+mode = "dark"
+background = "#240037"
+surface = "#0d0221"
+overlay = "#614d85"
+text = "#ffffff"
+subtext = "#ff7edb"
+accent = "#ff00ff"
+red = "#ff0040"
+green = "#8f00ff"
+yellow = "#f3e70f"
+ansi = ["#262335", "#ff0040", "#8f00ff", "#f3e70f", "#0080ff", "#ff00ff", "#03edf9", "#ffffff"]
+brights = ["#614d85", "#fe5442", "#fe5442", "#ffff66", "#0080ff", "#ff7edb", "#03edf9", "#ffffff"]
