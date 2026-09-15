@@ -1,0 +1,14 @@
+# Winarchy adaptation draft; see README.md and SOURCES.md for reviewed mapping.
+name = "Mecha no Onna"
+mode = "dark"
+background = "#1c1b19"
+surface = "#1c1b19"
+overlay = "#706e6b"
+text = "#f0e4c5"
+subtext = "#a89984"
+accent = "#d4bd99"
+red = "#c5564a"
+green = "#a89984"
+yellow = "#ebdbb2"
+ansi = ["#1c1b19", "#c5564a", "#a89984", "#ebdbb2", "#908d88", "#afa499", "#d4bd99", "#fbf1c7"]
+brights = ["#6b655c", "#d94e38", "#c2a571", "#f7df97", "#aaa090", "#cbae8e", "#e7c07c", "#fff8e8"]
