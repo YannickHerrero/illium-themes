@@ -49,7 +49,7 @@ Pour ajouter simplement une image à un thème déjà installé, la copier dans 
 
 ## Skill de conversion Omarchy → Winarchy
 
-Le skill versionné dans [`skills/omarchy-to-winarchy`](skills/omarchy-to-winarchy/SKILL.md) guide la conversion d'une URL GitHub ou d'un dossier local : révision source figée, palette adaptée, wallpapers préservés, attribution, validation et installation sans toucher au dépôt Winarchy.
+Le skill versionné dans [`skills/omarchy-to-winarchy`](skills/omarchy-to-winarchy/SKILL.md) guide la conversion d'une URL GitHub ou d'un dossier local : révision source figée, palette adaptée, previews et wallpapers préservés, attribution, validation et installation sans toucher au dépôt Winarchy. Le guide [assets](skills/omarchy-to-winarchy/references/assets.md) couvre aussi les captures liées dans les README, les pièces jointes GitHub, la conversion des formats et l'ajout sans écrasement à un pack existant.
 
 Il est installé sur cette machine via un lien dans `~/.agents/skills/omarchy-to-winarchy`. Dans pi, exécuter `/reload` pour le découvrir dans une session déjà ouverte, puis :
 
