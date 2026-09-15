@@ -2,12 +2,12 @@
 
 Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack installable : palette Winarchy, wallpapers, attribution et provenance des sources.
 
-| Pack | Mode | Wallpapers |
-|---|---|---:|
-| `pissarro` | Clair — crème, olive, lavande | 5 peintures |
-| `akane` | Sombre — bleu-violet, vermillon, or | 8 paysages |
-| `dracula` | Sombre — palette Dracula | 3 images |
-| `snow` | Clair — monochrome blanc, noir et gris | 3 images |
+| Pack | Mode | Wallpapers | Preview |
+|---|---|---:|---|
+| `pissarro` | Clair — crème, olive, lavande | 5 peintures | Capture Omarchy amont |
+| `akane` | Sombre — bleu-violet, vermillon, or | 8 paysages | Illustration de preview amont |
+| `dracula` | Sombre — palette Dracula | 3 images | `screenshot.png` amont renommé |
+| `snow` | Clair — monochrome blanc, noir et gris | 3 images | Capture Omarchy amont |
 
 ## Installer
 
@@ -30,12 +30,16 @@ L'installation conserve le format compatible avec WezTerm : `themes/pissarro.tom
 
 ## Utiliser
 
-- **Alt+Shift+Space → Theme** : choisir un thème.
+- **Alt+Shift+Space → Theme** ou **Ctrl+Alt+Shift+Space** : ouvrir le carrousel, taper pour filtrer, parcourir avec les flèches et valider avec Entrée.
 - **Alt+Shift+Space → Wallpaper** : choisir une image ou le fond uni.
 - **Ctrl+Alt+Shift+W** : image suivante du thème actif.
 - `winarchyctl wallpaper next`, `wallpaper set "nom du fichier.jpg"`, `wallpaper clear` : commandes équivalentes.
 
 Les choix sont mémorisés par thème dans `wallpapers.json`. Les images remplissent chaque écran, avec recadrage centré et proportions conservées ; la préférence de wallpaper Windows n'est pas modifiée.
+
+Chaque pack inclut désormais `preview.png`, récupéré sans recompression à la même révision amont que sa palette. Le nouveau sélecteur utilise ce fichier plutôt qu'un wallpaper de secours. Ces visuels représentent les thèmes Omarchy, pas les applications Winarchy. Le renommage Dracula et les sommes SHA-256 sont documentés dans les `SOURCES.md`.
+
+Pour compléter une installation existante, copier seulement le `preview.png` manquant dans `themes/<identifiant>/`, sans réinstaller le pack ni écraser ses fichiers. Les previews ont été ajoutées à l'installation locale sans changer le thème actif ni les choix de wallpaper ; `PREVIEW-SOURCES.md` accompagne ces ajouts pour ne pas écraser les documents existants. Akane et Snow restent réservés à l'adaptation locale personnelle, faute de licence explicite.
 
 ## Créer un autre pack
 
