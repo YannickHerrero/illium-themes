@@ -10,6 +10,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `snow` | Clair — monochrome blanc, noir et gris | 3 images | Capture Omarchy amont |
 | `synthwave84` | Sombre — violet, magenta et cyan néon | 1 image | Capture liée dans le README amont |
 | `mechanoonna` | Sombre — ambre et crème, Mecha no Onna V2 | 3 images | Capture Omarchy amont |
+| `aamis` | Sombre : noir profond, texte crème et ambre chaud, accent rouge unique | 1 image | Capture Omarchy amont (`assets/homescreen.png` renommée) |
 | `sakura` | Sombre : prune quasi noir, or, rose et corail | 6 images | Capture Omarchy amont |
 | `frost` | Sombre : bleu nuit et bleu-gris givré désaturés | 3 images | Capture Omarchy amont |
 | `futurism` | Sombre : bleu nuit, texte bleu glacier, accent rose néon et cyan électrique | 4 images | Capture Omarchy amont |
@@ -29,7 +30,7 @@ Sur cette machine, les sources sont aussi accessibles depuis Windows :
 winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\pissarro"
 ```
 
-Les neuf packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
+Les dix packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
 
 L'installation conserve le format compatible avec WezTerm : `themes/pissarro.toml` pour les couleurs et `themes/pissarro/wallpapers/` pour les images. Aucune modification de l'intégration WezTerm n'est nécessaire.
 
@@ -76,4 +77,4 @@ Pour installer le skill sur une autre machine, copier son dossier dans `~/.agent
 
 Chaque pack contient un `SOURCES.md` avec la révision amont exacte et les sommes SHA-256 des fichiers sources. Les palettes terminal préservent les 16 couleurs du fichier Alacritty d'origine ou, pour les thèmes Quattro comme Snow, celles définies par `colors.toml` et le template Alacritty officiel d'Omarchy. Les images sont conservées sans recompression.
 
-Pissarro, Dracula et Mechanoonna conservent leurs licences MIT amont ; les droits propres aux illustrations restent à respecter. **Akane, Snow, Synthwave84, Futurism, Frost et Sakura ne fournissent pas de licence explicite dans les révisions consultées : ces packs restent des adaptations locales personnelles, et leur redistribution publique doit être clarifiée avec les auteurs et les ayants droit des images.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.
+Pissarro, Dracula, Mechanoonna et Aamis conservent leurs licences MIT amont ; pour Aamis, le wallpaper hébergé sur Wallhaven reste une illustration tierce non couverte par cette licence ; les droits propres aux illustrations restent à respecter. **Akane, Snow, Synthwave84, Futurism, Frost et Sakura ne fournissent pas de licence explicite dans les révisions consultées : ces packs restent des adaptations locales personnelles, et leur redistribution publique doit être clarifiée avec les auteurs et les ayants droit des images.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.
