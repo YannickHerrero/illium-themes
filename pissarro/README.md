@@ -12,6 +12,8 @@ Includes all five upstream wallpapers, without resizing or recompression:
 - Place Du Carrousel Paris (1900)
 - The Louvre Afternoon Rainy Weather (1900)
 
+The visual picker uses the upstream `preview.png` unchanged. It depicts Omarchy rather than Winarchy; its exact revision and hash are recorded in `SOURCES.md`.
+
 The upstream project states that these Camille Pissarro paintings are public domain and that its source images came from the National Gallery of Art. The upstream MIT license is preserved in `LICENSE`; exact source revision and hashes are in `SOURCES.md`.
 
 Install: `winarchyctl theme install <path-to-this-folder>`, then `winarchyctl theme set pissarro`.

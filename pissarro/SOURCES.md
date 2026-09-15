@@ -6,7 +6,13 @@ Pinned revision: `6db12c1b9dd15589b5ba1a7447dac2ebea514676`
 
 Local Winarchy adaptation; no upstream application configuration is executed.
 
+## Picker preview
+
+`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (2565 × 1604). It depicts Omarchy, not Winarchy; no palette/application files are changed. The upstream MIT notice and public-domain artwork attribution remain in LICENSE and README.md.
+
 ## SHA-256 of source files
+
+- `preview.png`: `0176fb03cbb2c878bfe6df9bd6f57d13778161ab08a83faec0150908dc7cf8c5`
 
 - `LICENSE`: `72f73f88d4c3c6abb4467c422c7d647f0e59374dd5188fa6093367f184afdbdf`
 - `alacritty.toml`: `6c828529a3b7f601ce633d350328850e0b160283e7c3b48d34cbedae91f42cd3`
