@@ -10,6 +10,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `snow` | Clair — monochrome blanc, noir et gris | 3 images | Capture Omarchy amont |
 | `synthwave84` | Sombre — violet, magenta et cyan néon | 1 image | Capture liée dans le README amont |
 | `mechanoonna` | Sombre — ambre et crème, Mecha no Onna V2 | 3 images | Capture Omarchy amont |
+| `frost` | Sombre : bleu nuit et bleu-gris givré désaturés | 3 images | Capture Omarchy amont |
 | `futurism` | Sombre : bleu nuit, texte bleu glacier, accent rose néon et cyan électrique | 4 images | Capture Omarchy amont |
 
 ## Installer
@@ -27,7 +28,7 @@ Sur cette machine, les sources sont aussi accessibles depuis Windows :
 winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\pissarro"
 ```
 
-Les sept packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
+Les huit packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
 
 L'installation conserve le format compatible avec WezTerm : `themes/pissarro.toml` pour les couleurs et `themes/pissarro/wallpapers/` pour les images. Aucune modification de l'intégration WezTerm n'est nécessaire.
 
@@ -42,7 +43,7 @@ Les choix sont mémorisés par thème dans `wallpapers.json`. Les images remplis
 
 Chaque pack inclut désormais `preview.png`, récupéré sans recompression depuis la même révision amont que sa palette ou depuis l'image référencée par son README figé. Pour Synthwave84, la capture est une pièce jointe GitHub externe : sa propre somme SHA-256 fixe son contenu, sans prétendre qu'elle est un fichier du commit Git. Le nouveau sélecteur utilise ce fichier plutôt qu'un wallpaper de secours. Ces visuels représentent les thèmes Omarchy, pas les applications Winarchy. Le renommage Dracula et les sommes SHA-256 sont documentés dans les `SOURCES.md`.
 
-Pour compléter une installation existante, copier seulement le `preview.png` manquant dans `themes/<identifiant>/`, sans réinstaller le pack ni écraser ses fichiers. Les previews ont été ajoutées à l'installation locale sans changer le thème actif ni les choix de wallpaper ; `PREVIEW-SOURCES.md` accompagne ces ajouts pour ne pas écraser les documents existants. Akane, Snow, Synthwave84 et Futurism restent réservés à l'adaptation locale personnelle, faute de licence explicite.
+Pour compléter une installation existante, copier seulement le `preview.png` manquant dans `themes/<identifiant>/`, sans réinstaller le pack ni écraser ses fichiers. Les previews ont été ajoutées à l'installation locale sans changer le thème actif ni les choix de wallpaper ; `PREVIEW-SOURCES.md` accompagne ces ajouts pour ne pas écraser les documents existants. Akane, Snow, Synthwave84, Futurism et Frost restent réservés à l'adaptation locale personnelle, faute de licence explicite.
 
 ## Créer un autre pack
 
@@ -74,4 +75,4 @@ Pour installer le skill sur une autre machine, copier son dossier dans `~/.agent
 
 Chaque pack contient un `SOURCES.md` avec la révision amont exacte et les sommes SHA-256 des fichiers sources. Les palettes terminal préservent les 16 couleurs du fichier Alacritty d'origine ou, pour les thèmes Quattro comme Snow, celles définies par `colors.toml` et le template Alacritty officiel d'Omarchy. Les images sont conservées sans recompression.
 
-Pissarro, Dracula et Mechanoonna conservent leurs licences MIT amont ; les droits propres aux illustrations restent à respecter. **Akane, Snow, Synthwave84 et Futurism ne fournissent pas de licence explicite dans les révisions consultées : ces packs restent des adaptations locales personnelles, et leur redistribution publique doit être clarifiée avec les auteurs et les ayants droit des images.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.
+Pissarro, Dracula et Mechanoonna conservent leurs licences MIT amont ; les droits propres aux illustrations restent à respecter. **Akane, Snow, Synthwave84, Futurism et Frost ne fournissent pas de licence explicite dans les révisions consultées : ces packs restent des adaptations locales personnelles, et leur redistribution publique doit être clarifiée avec les auteurs et les ayants droit des images.** Il n'y a pas de licence globale qui réattribuerait les droits des ressources tierces.

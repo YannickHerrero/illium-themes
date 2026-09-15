@@ -1,0 +1,14 @@
+# Winarchy adaptation of bjarneo/omarchy-frost-theme; see README.md and SOURCES.md.
+name = "Frost"
+mode = "dark"
+background = "#0a0f1c"
+surface = "#121b33"
+overlay = "#4e5b6b"
+text = "#d4d5d9"
+subtext = "#9ea0a9"
+accent = "#9bb0c2"
+red = "#869aac"
+green = "#95a8b8"
+yellow = "#9fadb8"
+ansi = ["#0a0f1c", "#869aac", "#95a8b8", "#9fadb8", "#9bb0c2", "#a8b9c6", "#b8c7d0", "#d4d5d9"]
+brights = ["#51545e", "#869aac", "#95a8b8", "#9fadb8", "#9bb0c2", "#a8b9c6", "#b8c7d0", "#efeff1"]
