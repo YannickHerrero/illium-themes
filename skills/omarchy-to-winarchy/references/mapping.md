@@ -1,6 +1,15 @@
 # Palette mapping and review
 
-Winarchy requires `name`, nine six-digit RGB color strings and optionally `mode`, `ansi`, `brights`. Do not add provenance or wallpaper fields to `theme.toml`: the Rust parser rejects unknown fields. Use README/SOURCES and the conventional wallpaper folder instead.
+Winarchy requires `name`, nine six-digit RGB color strings and optionally `mode`, `ansi`, `brights`, `background_opacity`. Do not add provenance or wallpaper fields to `theme.toml`: the Rust parser rejects unknown fields. Use README/SOURCES and the conventional wallpaper folder instead.
+
+## Shared opacity
+
+Use `background_opacity = 0.85` for the standard Winarchy default (finite range
+`0.0..1.0`). The helper emits it explicitly; it does not infer opacity from an
+Omarchy application config. It affects the terminal, Files/Tasks backgrounds and
+browser home, never web pages. Upgrade all Winarchy binaries before installing
+this field. The legacy `terminal_background_opacity` alias is still accepted by
+Winarchy; never emit both names.
 
 ## UI roles
 

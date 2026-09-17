@@ -51,7 +51,8 @@ def convert(source, name, mode=None, ansi_source="auto", **overrides):
         ansi = [rgb(colors.get(k), k) for k in ansi_keys]
         brights = [rgb(colors.get(k), k) for k in bright_keys]
     primary = terminal.get("primary", {})
-    palette = {"name": name, "mode": mode}
+    # Winarchy's shared default, not an inferred Omarchy application setting.
+    palette = {"name": name, "mode": mode, "background_opacity": 0.85}
     defaults = {
         "background": colors.get("background", primary.get("background")),
         "surface": colors.get("lighter_background", ansi[0]),

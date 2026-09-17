@@ -34,6 +34,8 @@ class ConversionTests(unittest.TestCase):
     def test_monochrome_quattro_and_explicit_overlay(self):
         p = converter.convert(self.source, "Snow", overlay="#e6e6e6")
         self.assertEqual(p["mode"], "light")
+        self.assertEqual(p["background_opacity"], 0.85)
+        self.assertNotIn("terminal_background_opacity", p)
         self.assertEqual(p["overlay"], "#e6e6e6")
         self.assertEqual(p["subtext"], "#565656")
         self.assertEqual(p["ansi"], ["#ffffff"] + ["#0a0a0a"] * 7)
