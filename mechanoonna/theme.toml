@@ -1,6 +1,7 @@
 # Winarchy adaptation draft; see README.md and SOURCES.md for reviewed mapping.
 name = "Mecha no Onna"
 mode = "dark"
+background_opacity = 0.85
 background = "#1c1b19"
 surface = "#1c1b19"
 overlay = "#706e6b"

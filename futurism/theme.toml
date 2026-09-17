@@ -1,6 +1,7 @@
 # Winarchy adaptation of bjarneo/omarchy-futurism-theme; see README.md and SOURCES.md.
 name = "Futurism"
 mode = "dark"
+background_opacity = 0.85
 background = "#0a1428"
 surface = "#080f1e"
 overlay = "#17294a"

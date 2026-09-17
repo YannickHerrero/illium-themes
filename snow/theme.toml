@@ -1,6 +1,7 @@
 # Winarchy adaptation of bjarneo/omarchy-snow-theme. See README.md and SOURCES.md.
 name = "Snow"
 mode = "light"
+background_opacity = 0.85
 background = "#ffffff"
 surface = "#f7f7f7"
 overlay = "#e6e6e6"

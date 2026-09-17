@@ -1,6 +1,7 @@
 # Winarchy adaptation of vyrx-dev/omarchy-aamis-theme; see README.md and SOURCES.md.
 name = "Aamis"
 mode = "dark"
+background_opacity = 0.85
 background = "#0f0f0f"
 surface = "#0f0f0f"
 overlay = "#706a6a"

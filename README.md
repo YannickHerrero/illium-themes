@@ -17,7 +17,8 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 
 ## Installer
 
-Avec une version de Winarchy prenant en charge `theme install` :
+Avec une version de Winarchy prenant en charge `theme install` et
+`background_opacity` (mettre à jour tous les exécutables avant installation) :
 
 ```powershell
 winarchyctl theme install "C:\Downloads\pissarro"
@@ -33,6 +34,28 @@ winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-them
 Les dix packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
 
 L'installation conserve le format compatible avec WezTerm : `themes/pissarro.toml` pour les couleurs et `themes/pissarro/wallpapers/` pour les images. Aucune modification de l'intégration WezTerm n'est nécessaire.
+
+## Opacité commune
+
+Les dix palettes définissent `background_opacity = 0.85`, la valeur par défaut
+Winarchy rendue explicite. Elle règle le fond du terminal, de Tasks et de Files,
+ainsi que l'accueil du browser ; les pages web restent opaques. C'est un choix
+Winarchy, pas une nouvelle couleur ni une valeur attribuée aux sources Omarchy.
+L'ancien nom `terminal_background_opacity` reste accepté par Winarchy, mais les
+nouveaux packs utilisent uniquement `background_opacity`.
+
+**Ctrl+Alt+Shift+Y / U** diminuent / augmentent temporairement l'opacité de cinq
+points (5–100 %). Les fichiers des thèmes ne sont pas modifiés ; changer de thème
+ou redémarrer Winarchy rétablit leur valeur. Ajouter les deux raccourcis à un
+ancien `keybindings.toml` si nécessaire :
+
+```toml
+"Ctrl+Alt+Shift+Y" = "opacity decrease"
+"Ctrl+Alt+Shift+U" = "opacity increase"
+```
+
+Les palettes déjà installées ne sont pas écrasées par cette mise à jour du dépôt.
+Elles conservent la même opacité implicite de 85 % si aucun champ n'est présent.
 
 ## Utiliser
 

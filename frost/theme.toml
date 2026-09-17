@@ -1,6 +1,7 @@
 # Winarchy adaptation of bjarneo/omarchy-frost-theme; see README.md and SOURCES.md.
 name = "Frost"
 mode = "dark"
+background_opacity = 0.85
 background = "#0a0f1c"
 surface = "#121b33"
 overlay = "#4e5b6b"

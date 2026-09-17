@@ -1,6 +1,7 @@
 # Winarchy adaptation of dracula/omarchy. See SOURCES.md.
 name = "Dracula"
 mode = "dark"
+background_opacity = 0.85
 background = "#282a36"
 surface = "#21222c"
 overlay = "#44475a"

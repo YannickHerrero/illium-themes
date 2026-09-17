@@ -1,6 +1,7 @@
 # Winarchy adaptation of mattbbia/pissarro. See SOURCES.md.
 name = "Pissarro"
 mode = "light"
+background_opacity = 0.85
 background = "#f1f3ea"
 surface = "#f2f4ec"
 overlay = "#b5b6b0"
