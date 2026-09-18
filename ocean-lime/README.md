@@ -1,6 +1,6 @@
 # Ocean Lime
 
-Thème sombre bleu océan, accent bleu vif et couleurs sémantiques citron vert.
+Thème sombre bleu nuit, accent bleu glacier et couleurs sémantiques citron vert, or et corail.
 Les 9 couleurs d'interface et les 16 couleurs de terminal sont celles fournies par l'utilisateur, sans modification.
 
 ## Installation

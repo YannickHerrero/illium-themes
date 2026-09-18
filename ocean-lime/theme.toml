@@ -1,16 +1,16 @@
 name = "Ocean Lime"
 mode = "dark"
-background = "#062B42"
-surface = "#0B3B55"
-overlay = "#14506B"
-text = "#F3F7F4"
-subtext = "#9BD5DF"
-accent = "#32A7F6"
-green = "#B6D337"
-yellow = "#E9EF68"
-red = "#F07178"
+background = "#06101c"
+surface = "#0a1c33"
+overlay = "#122a47"
+text = "#eaf6ff"
+subtext = "#8fa8c4"
+accent = "#9fe0ff"
+green = "#d6ff7a"
+yellow = "#ffd66b"
+red = "#ff8b8b"
 background_opacity = 0.85
 
 # Noir, rouge, vert, jaune, bleu, magenta, cyan, blanc.
-ansi = ["#062B42", "#F07178", "#B6D337", "#E9EF68", "#1686F1", "#A98BD4", "#50BDF7", "#D7EAF2"]
-brights = ["#4C7384", "#FF9096", "#CEE165", "#F3F6A7", "#79CDF4", "#C8A9EE", "#BFE3F2", "#FAFCF6"]
+ansi = ["#0b3b6f", "#e06a6a", "#7dbb3a", "#e8bb4e", "#1e7fd4", "#8f7ed8", "#4fb3ff", "#c8dcec"]
+brights = ["#16456f", "#ff8b8b", "#b6e84f", "#ffd66b", "#4fb3ff", "#b3a4ff", "#9fe0ff", "#f4fbff"]
