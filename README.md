@@ -14,6 +14,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `sakura` | Sombre : prune quasi noir, or, rose et corail | 6 images | Capture Omarchy amont |
 | `frost` | Sombre : bleu nuit et bleu-gris givré désaturés | 3 images | Capture Omarchy amont |
 | `futurism` | Sombre : bleu nuit, texte bleu glacier, accent rose néon et cyan électrique | 4 images | Capture Omarchy amont |
+| `ocean-lime` | Sombre : bleu océan, accent bleu vif et citron vert | 2 images fournies par l'utilisateur | Fond principal |
 
 ## Installer
 
@@ -31,13 +32,13 @@ Sur cette machine, les sources sont aussi accessibles depuis Windows :
 winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\pissarro"
 ```
 
-Les dix packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
+Les onze packs sont déjà installés sous `%USERPROFILE%\.config\winarchy\themes`. Une nouvelle installation du même nom est volontairement refusée pour préserver les réglages existants.
 
 L'installation conserve le format compatible avec WezTerm : `themes/pissarro.toml` pour les couleurs et `themes/pissarro/wallpapers/` pour les images. Aucune modification de l'intégration WezTerm n'est nécessaire.
 
 ## Opacité commune
 
-Les dix palettes définissent `background_opacity = 0.85`, la valeur par défaut
+Les onze palettes définissent `background_opacity = 0.85`, la valeur par défaut
 Winarchy rendue explicite. Elle règle le fond du terminal, de Tasks et de Files,
 ainsi que l'accueil du browser ; les pages web restent opaques. C'est un choix
 Winarchy, pas une nouvelle couleur ni une valeur attribuée aux sources Omarchy.
