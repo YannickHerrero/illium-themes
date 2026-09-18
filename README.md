@@ -5,7 +5,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | Pack | Mode | Wallpapers | Preview |
 |---|---|---:|---|
 | `pissarro` | Clair — crème, olive, lavande | 5 peintures | Capture Omarchy amont |
-| `akane` | Sombre — bleu-violet, vermillon, or | 8 paysages | Illustration de preview amont |
+| `akane` | Sombre — bleu-violet, vermillon, or | 8 paysages | Aperçu dédié fourni par l'utilisateur |
 | `dracula` | Sombre — palette Dracula | 3 images | `screenshot.png` amont renommé |
 | `snow` | Clair — monochrome blanc, noir et gris | 3 images | Capture Omarchy amont |
 | `synthwave84` | Sombre — violet, magenta et cyan néon | 1 image | Capture liée dans le README amont |

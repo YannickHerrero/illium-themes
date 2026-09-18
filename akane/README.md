@@ -8,7 +8,7 @@ Includes the eight numbered upstream wallpapers, unchanged. The small `backgroun
 
 ## Picker preview
 
-`preview.png` preserves the upstream author's preview artwork unchanged. The visual picker uses it instead of a wallpaper fallback. This upstream image shows the scenery only, not a composite of Winarchy windows. No preview-unlock/lock-screen assets are included. See `SOURCES.md` for its hash.
+`preview.png` is the dedicated 2560 × 1600 image supplied by the user, copied unchanged. It replaces the former upstream artwork in the visual picker. No additional redistribution rights are presumed. See `SOURCES.md` for its source and hash.
 
 ## Rights / distribution
 
