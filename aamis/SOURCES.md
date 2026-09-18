@@ -9,6 +9,12 @@ Local Winarchy adaptation; no upstream application configuration or script is ex
 
 ## Picker preview
 
+Current `preview.png`: user-provided `/tmp/pi-clipboard-4d603cd2-738b-473d-8bb7-1f0a609b37cb.png`, PNG RGBA, 2560 × 1600, copied unchanged.
+SHA-256: `7b58615eb7acaf533d1608a7c8a836ead8ab31434e2e2f665b93415ca7ecf6f0`.
+No additional redistribution rights are presumed.
+
+### Former upstream preview (replaced; no longer shipped)
+
 - Source: `assets/homescreen.png` at the pinned revision (referenced by the pinned README as "Omarchy homescreen setup").
 - URL: https://raw.githubusercontent.com/vyrx-dev/omarchy-aamis-theme/a155348baa139e36b6b0c14a038b3002638c1243/assets/homescreen.png
 - Installed path: `preview.png` (renamed to follow Winarchy's preview discovery convention).

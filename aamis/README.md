@@ -29,7 +29,7 @@ Winarchy's generic WezTerm integration maps the accent to the cursor (upstream u
 
 ## Preview and wallpaper
 
-- `preview.png`: upstream `assets/homescreen.png`, copied byte-for-byte (1921 x 1081). It is the Omarchy desktop screenshot the upstream README captions "Omarchy homescreen setup", showing Waybar over the wallpaper. It depicts Omarchy, not Winarchy. The other README images (`setup.png`, `lazygit.png`, `btop.png`, `neovim.png`) are application screenshots and `pallete.png` is a swatch strip; they are not previews and are not included.
+- `preview.png`: dedicated user-provided image (2560 x 1600), copied unchanged. It replaces the former upstream `assets/homescreen.png` screenshot. No additional redistribution rights are presumed for this new image; see `SOURCES.md` for its source and hash.
 - `wallpapers/wallhaven-mdjrqy.jpg`: the single upstream wallpaper, 5120 x 2880, copied without resizing or recompression. The filename indicates a wallhaven.cc image (id `mdjrqy`) by a third-party artist.
 - `assets/icons/*` are standalone logo files for the Vicinae theme and are excluded; they are not desktop artwork.
 

@@ -10,7 +10,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `snow` | Clair — monochrome blanc, noir et gris | 3 images | Capture Omarchy amont |
 | `synthwave84` | Sombre — violet, magenta et cyan néon | 1 image | Capture liée dans le README amont |
 | `mechanoonna` | Sombre — ambre et crème, Mecha no Onna V2 | 3 images | Capture Omarchy amont |
-| `aamis` | Sombre : noir profond, texte crème et ambre chaud, accent rouge unique | 1 image | Capture Omarchy amont (`assets/homescreen.png` renommée) |
+| `aamis` | Sombre : noir profond, texte crème et ambre chaud, accent rouge unique | 1 image | Aperçu dédié fourni par l'utilisateur |
 | `sakura` | Sombre : prune quasi noir, or, rose et corail | 6 images | Capture Omarchy amont |
 | `frost` | Sombre : bleu nuit et bleu-gris givré désaturés | 3 images | Capture Omarchy amont |
 | `futurism` | Sombre : bleu nuit, texte bleu glacier, accent rose néon et cyan électrique | 4 images | Capture Omarchy amont |
