@@ -14,7 +14,7 @@ Collection locale indépendante du dépôt Winarchy. Chaque dossier est un pack 
 | `sakura` | Sombre : prune quasi noir, or, rose et corail | 6 images | Capture Omarchy amont |
 | `frost` | Sombre : bleu nuit et bleu-gris givré désaturés | 3 images | Capture Omarchy amont |
 | `futurism` | Sombre : bleu nuit, texte bleu glacier, accent rose néon et cyan électrique | 4 images | Capture Omarchy amont |
-| `ocean-lime` | Sombre : bleu nuit, accent bleu glacier et citron vert | 2 images fournies par l'utilisateur | Fond principal |
+| `ocean-lime` | Sombre : bleu nuit, accent bleu glacier et citron vert | 2 images fournies par l'utilisateur | Aperçu dédié fourni par l'utilisateur |
 
 ## Installer
 
