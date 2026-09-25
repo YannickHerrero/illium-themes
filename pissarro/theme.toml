@@ -1,4 +1,4 @@
-# Winarchy adaptation of mattbbia/pissarro. See SOURCES.md.
+# Illium adaptation of mattbbia/pissarro. See SOURCES.md.
 name = "Pissarro"
 mode = "light"
 background_opacity = 0.85

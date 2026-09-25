@@ -15,7 +15,7 @@ Repository tree at this revision: `.gitignore`, `README.md`, `colors.toml`, `ico
 - Format/dimensions: PNG (RGBA), 3841 x 2161; 3,497,509 bytes.
 - Source/installed SHA-256: `89df2cc9636ee86a94b41af1ea9f112bc255480a5626803574961e1286c1d9cd`.
 
-Copied byte-for-byte. It is the image referenced by the pinned README and depicts an Omarchy desktop, not Winarchy.
+Copied byte-for-byte. It is the image referenced by the pinned README and depicts an Omarchy desktop, not Illium.
 
 ## Wallpapers
 

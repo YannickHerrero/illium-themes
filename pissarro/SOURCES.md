@@ -4,11 +4,11 @@ Upstream: https://github.com/mattbbia/pissarro
 
 Pinned revision: `6db12c1b9dd15589b5ba1a7447dac2ebea514676`
 
-Local Winarchy adaptation; no upstream application configuration is executed.
+Local Illium adaptation; no upstream application configuration is executed.
 
 ## Picker preview
 
-`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (2565 × 1604). It depicts Omarchy, not Winarchy; no palette/application files are changed. The upstream MIT notice and public-domain artwork attribution remain in LICENSE and README.md.
+`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (2565 × 1604). It depicts Omarchy, not Illium; no palette/application files are changed. The upstream MIT notice and public-domain artwork attribution remain in LICENSE and README.md.
 
 ## SHA-256 of source files
 

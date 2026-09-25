@@ -1,19 +1,19 @@
 # Palette mapping and review
 
-Winarchy requires `name`, nine six-digit RGB color strings and optionally `mode`, `ansi`, `brights`, `background_opacity`. Do not add provenance or wallpaper fields to `theme.toml`: the Rust parser rejects unknown fields. Use README/SOURCES and the conventional wallpaper folder instead.
+Illium requires `name`, nine six-digit RGB color strings and optionally `mode`, `ansi`, `brights`, `background_opacity`. Do not add provenance or wallpaper fields to `theme.toml`: the Rust parser rejects unknown fields. Use README/SOURCES and the conventional wallpaper folder instead.
 
 ## Shared opacity
 
-Use `background_opacity = 0.85` for the standard Winarchy default (finite range
+Use `background_opacity = 0.85` for the standard Illium default (finite range
 `0.0..1.0`). The helper emits it explicitly; it does not infer opacity from an
 Omarchy application config. It affects the terminal, Files/Tasks backgrounds and
-browser home, never web pages. Upgrade all Winarchy binaries before installing
+browser home, never web pages. Upgrade all Illium binaries before installing
 this field. The legacy `terminal_background_opacity` alias is still accepted by
-Winarchy; never emit both names.
+Illium; never emit both names.
 
 ## UI roles
 
-| Winarchy | Quattro starting point | Review |
+| Illium | Quattro starting point | Review |
 |---|---|---|
 | `background` | `background` | Terminal, launcher and solid desktop base |
 | `surface` | `lighter_background` | Bar; sometimes `dark_background` is more appropriate |
@@ -50,4 +50,4 @@ Record that mapping provenance for Quattro-only adaptations. If the upstream for
 
 Check text on base and bar, selected text, active workspace/launcher selection, and inactive icons/text. Prefer adjustments drawn from the same source palette and explain them. A monochrome source must not acquire colored accents simply because ANSI roles are called red or green.
 
-Do not automatically propagate a special cursor/search/selection color into every Winarchy role: the schemas are not one-to-one. Winarchy's generic WezTerm integration maps its accent to the cursor and overlay to selection; disclose material differences from upstream rather than claiming every application color is identical.
+Do not automatically propagate a special cursor/search/selection color into every Illium role: the schemas are not one-to-one. Illium's generic WezTerm integration maps its accent to the cursor and overlay to selection; disclose material differences from upstream rather than claiming every application color is identical.

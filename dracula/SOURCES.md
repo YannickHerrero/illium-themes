@@ -4,11 +4,11 @@ Upstream: https://github.com/dracula/omarchy
 
 Pinned revision: `dcb68cf4156b64302b9f94fd697b7b65110b59fe`
 
-Local Winarchy adaptation; no upstream application configuration is executed.
+Local Illium adaptation; no upstream application configuration is executed.
 
 ## Picker preview
 
-Upstream `screenshot.png` is installed as `preview.png`, byte-for-byte unchanged (2560 × 1440), from the revision above. It depicts Omarchy, not Winarchy. The name change follows Winarchy's preview discovery convention; the upstream MIT notice remains in LICENSE.
+Upstream `screenshot.png` is installed as `preview.png`, byte-for-byte unchanged (2560 × 1440), from the revision above. It depicts Omarchy, not Illium. The name change follows Illium's preview discovery convention; the upstream MIT notice remains in LICENSE.
 
 ## SHA-256 of source files
 

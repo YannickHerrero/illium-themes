@@ -1,4 +1,4 @@
-# Snow — Winarchy (personal adaptation)
+# Snow — Illium (personal adaptation)
 
 Monochrome light theme adapted from [bjarneo/omarchy-snow-theme](https://github.com/bjarneo/omarchy-snow-theme).
 
@@ -6,11 +6,11 @@ Monochrome light theme adapted from [bjarneo/omarchy-snow-theme](https://github.
 
 White background (`#ffffff`), nearly black text/accent (`#0a0a0a`), light gray bar (`#f7f7f7`) and readable secondary text (`#565656`). These are upstream `background`, `foreground`/`accent`, `lighter_background` and `dark_foreground`.
 
-Winarchy's shared overlay/selection/border role uses upstream `darker_background` (`#e6e6e6`) instead of `selection` (`#f7f7f7`), which equals the bar surface. This is the only explicit helper override and gives selections and borders more distinction.
+Illium's shared overlay/selection/border role uses upstream `darker_background` (`#e6e6e6`) instead of `selection` (`#f7f7f7`), which equals the bar surface. This is the only explicit helper override and gives selections and borders more distinction.
 
 The source provides only Quattro `colors.toml`, not Alacritty configuration. Its 16 ANSI slots follow Omarchy's official Alacritty template (pinned reference in `SOURCES.md`). The six named ANSI hues and their bright variants deliberately remain `#0a0a0a`; no conventional red, green or yellow has been introduced. Black/white slots follow the light terminal mapping, not the literal color names.
 
-Generated with the local `omarchy-to-winarchy` skill's palette helper, then reviewed. All Winarchy UI and ANSI colors are grayscale.
+Generated with the local `omarchy-to-illium` skill's palette helper, then reviewed. All Illium UI and ANSI colors are grayscale.
 
 ## Wallpapers
 
@@ -22,7 +22,7 @@ All three upstream wallpapers are retained unchanged:
 
 ## Picker preview
 
-`preview.png` is the unchanged upstream Omarchy screenshot, used by Winarchy's visual picker. It does not claim to render Winarchy applications. Its source hash is recorded in `SOURCES.md`; the same local-only rights reservation below applies.
+`preview.png` is the unchanged upstream Omarchy screenshot, used by Illium's visual picker. It does not claim to render Illium applications. Its source hash is recorded in `SOURCES.md`; the same local-only rights reservation below applies.
 
 ## Rights / distribution
 
@@ -33,8 +33,8 @@ See `SOURCES.md` for the exact upstream revision and source hashes.
 ## Use
 
 ```powershell
-winarchyctl theme install <path-to-this-folder>
-winarchyctl theme set snow
+illiumctl theme install <path-to-this-folder>
+illiumctl theme set snow
 ```
 
 Or open **Alt+Shift+Space → Theme**, type `snow` and press Enter. Wallpapers are available under **Wallpaper**, and **Ctrl+Alt+Shift+W** cycles them. Installation does not activate the theme automatically.

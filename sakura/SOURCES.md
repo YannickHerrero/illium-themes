@@ -15,7 +15,7 @@ No LICENSE file, README license grant, `alacritty.toml` or `light.mode` marker i
 - Format/dimensions: PNG (RGBA), 3841 x 2161; 4,695,691 bytes.
 - Source/installed SHA-256: `6a4649be447082c064d746bf886a4c102f8cd4e10ed149cb5336f8e09fc5bdef`.
 
-Copied byte-for-byte. It depicts an Omarchy desktop (terminal, editor, file manager and system monitor), not Winarchy.
+Copied byte-for-byte. It depicts an Omarchy desktop (terminal, editor, file manager and system monitor), not Illium.
 
 ## Wallpapers
 
@@ -46,7 +46,7 @@ https://github.com/omacom/omarchy/blob/b679363bed05415771a1b1dc92c6899a908236f7/
 
 No upstream Alacritty file exists; the terminal arrays are derived, not copied.
 
-The native palette was generated with the collection's `skills/omarchy-to-winarchy/scripts/convert_palette.py` helper using:
+The native palette was generated with the collection's `skills/omarchy-to-illium/scripts/convert_palette.py` helper using:
 
 ```text
 --name "Sakura" --overlay '#853641'

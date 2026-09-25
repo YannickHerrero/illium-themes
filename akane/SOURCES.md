@@ -4,7 +4,7 @@ Upstream: https://github.com/Grenish/omarchy-akane-theme
 
 Pinned revision: `bfe2285358552b4c2eb545db43c814a2ffe1b8df`
 
-Local Winarchy adaptation; no upstream application configuration is executed.
+Local Illium adaptation; no upstream application configuration is executed.
 
 ## Picker preview
 
@@ -14,7 +14,7 @@ No additional redistribution rights are presumed.
 
 ### Former upstream preview (replaced)
 
-The former `preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (1800 × 1012). It is the author's preview artwork, not a screenshot of Winarchy. No lock-screen image is imported. Its licensing remains unclarified, as documented in README.md; this is a local personal asset, not a new redistribution grant.
+The former `preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (1800 × 1012). It is the author's preview artwork, not a screenshot of Illium. No lock-screen image is imported. Its licensing remains unclarified, as documented in README.md; this is a local personal asset, not a new redistribution grant.
 
 ## SHA-256 of source files
 

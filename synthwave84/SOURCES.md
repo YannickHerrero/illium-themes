@@ -16,7 +16,7 @@ No LICENSE, explicit README license grant, `colors.toml` or light-mode marker is
 - Format/dimensions: PNG, 3840 × 2160; 4,288,628 bytes.
 - Downloaded/installed SHA-256: `d221011258f3da5d9811388015a3750d2705fb5252b907b76185871d7307bf27`.
 
-The pinned Git commit identifies the README reference; the image itself is **not a repository blob** and is pinned by the downloaded content hash. The actual decoded PNG was inspected and copied byte-for-byte. It depicts an Omarchy desktop, not Winarchy.
+The pinned Git commit identifies the README reference; the image itself is **not a repository blob** and is pinned by the downloaded content hash. The actual decoded PNG was inspected and copied byte-for-byte. It depicts an Omarchy desktop, not Illium.
 
 ## Wallpaper
 
