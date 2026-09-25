@@ -1,4 +1,4 @@
-# Aamis (Winarchy)
+# Aamis (Illium)
 
 Dark theme adapted from [vyrx-dev/omarchy-aamis-theme](https://github.com/vyrx-dev/omarchy-aamis-theme) by Amit (vyrx-dev): near-black canvas, creamy text, warm amber highlights and a single red accent. The upstream theme was generated with [Aether](https://github.com/bjarneo/aether).
 
@@ -6,7 +6,7 @@ Dark theme adapted from [vyrx-dev/omarchy-aamis-theme](https://github.com/vyrx-d
 
 Upstream ships an Aether-style `colors.toml` (accent, cursor, foreground, background, selection and `color0..15`), not the newer Quattro semantic format, together with `alacritty.toml`, `ghostty.conf` and `kitty.conf`. All four files agree on the same 16 terminal colors, and the pack preserves the Alacritty `[colors.normal]` and `[colors.bright]` values exactly, including the intentional tan `green` (`#cea37f`, identical in normal and bright) and the cream `magenta` (`#ede4c8`). No conventional green or purple has been substituted. Dark mode is chosen explicitly after reviewing the `#0f0f0f` background and the README description; the repository has no `light.mode` marker.
 
-Winarchy UI mapping:
+Illium UI mapping:
 
 | Role | Color | Source / decision |
 |---|---|---|
@@ -20,12 +20,12 @@ Winarchy UI mapping:
 
 Deviations from upstream, and why:
 
-- The upstream selection background (`#e2be8a`) equals the accent. Winarchy uses the overlay for both selections and unfocused window borders, so reusing the accent there would make focused and unfocused borders identical. Bright black is used instead, following the upstream btop selected row (`#706a6a` under `#eadccc`, 3.94:1) and the Walker border.
+- The upstream selection background (`#e2be8a`) equals the accent. Illium uses the overlay for both selections and unfocused window borders, so reusing the accent there would make focused and unfocused borders identical. Bright black is used instead, following the upstream btop selected row (`#706a6a` under `#eadccc`, 3.94:1) and the Walker border.
 - Bright black as secondary text would only reach 3.61:1 against the base and would coincide with the overlay. The tan `#cea37f` reaches 8.37:1 and keeps the warm amber character of the theme.
 - Dark background text on the accent has 10.92:1 contrast.
-- The upstream Hyprland active border is a near-black to gray gradient (`#0f0f0f` to `#706a6a`); Winarchy uses the single amber accent for the focused border, active workspace and launcher selection, matching Walker's selected text rather than the gradient.
+- The upstream Hyprland active border is a near-black to gray gradient (`#0f0f0f` to `#706a6a`); Illium uses the single amber accent for the focused border, active workspace and launcher selection, matching Walker's selected text rather than the gradient.
 
-Winarchy's generic WezTerm integration maps the accent to the cursor (upstream uses the cream foreground) and the overlay to the selection. Application-specific styles (btop, Neovim, Vicinae, Typora, Vesktop, VS Code) are not reproduced: this is a native Winarchy palette, not an installation of Omarchy configuration. No upstream file is executed.
+Illium's generic WezTerm integration maps the accent to the cursor (upstream uses the cream foreground) and the overlay to the selection. Application-specific styles (btop, Neovim, Vicinae, Typora, Vesktop, VS Code) are not reproduced: this is a native Illium palette, not an installation of Omarchy configuration. No upstream file is executed.
 
 ## Preview and wallpaper
 
@@ -42,8 +42,8 @@ The upstream repository is MIT licensed (`LICENSE`, Copyright (c) 2025 Amit); th
 ## Use
 
 ```powershell
-winarchyctl theme install <path-to-this-folder>
-winarchyctl theme set aamis
+illiumctl theme install <path-to-this-folder>
+illiumctl theme set aamis
 ```
 
 Or open **Alt+Shift+Space > Theme**, type `aamis` and press Enter. The wallpaper is available under **Wallpaper**. Installation alone does not activate the theme or modify saved wallpaper choices.

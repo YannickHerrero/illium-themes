@@ -5,7 +5,7 @@ Upstream: https://github.com/vyrx-dev/omarchy-aamis-theme
 Default branch inspected: `master`.
 Pinned revision: `a155348baa139e36b6b0c14a038b3002638c1243` (committed 2026-05-25).
 
-Local Winarchy adaptation; no upstream application configuration or script is executed. All repository entries at this revision are regular `100644` blobs (no symlinks, submodules or LFS pointers).
+Local Illium adaptation; no upstream application configuration or script is executed. All repository entries at this revision are regular `100644` blobs (no symlinks, submodules or LFS pointers).
 
 ## Picker preview
 
@@ -17,11 +17,11 @@ No additional redistribution rights are presumed.
 
 - Source: `assets/homescreen.png` at the pinned revision (referenced by the pinned README as "Omarchy homescreen setup").
 - URL: https://raw.githubusercontent.com/vyrx-dev/omarchy-aamis-theme/a155348baa139e36b6b0c14a038b3002638c1243/assets/homescreen.png
-- Installed path: `preview.png` (renamed to follow Winarchy's preview discovery convention).
+- Installed path: `preview.png` (renamed to follow Illium's preview discovery convention).
 - Format/dimensions: PNG (RGBA), 1921 x 1081; 106,824 bytes.
 - Source/installed SHA-256: `3915f9b86d8efe37bb41b669a073421736ad01f7dd42f4f00f23f20375c45c22`.
 
-Copied byte-for-byte. It depicts an Omarchy desktop, not Winarchy.
+Copied byte-for-byte. It depicts an Omarchy desktop, not Illium.
 
 Excluded README images (application screenshots or swatch, not desktop previews):
 

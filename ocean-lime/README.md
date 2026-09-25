@@ -6,15 +6,15 @@ Les 9 couleurs d'interface et les 16 couleurs de terminal sont celles fournies p
 ## Installation
 
 ```powershell
-winarchyctl theme install "\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\ocean-lime"
-winarchyctl theme set ocean-lime
+illiumctl theme install "\\wsl.localhost\Debian\home\yannick\dev\illium-themes\ocean-lime"
+illiumctl theme set ocean-lime
 ```
 
 - `preview.png` : aperçu dédié fourni par l'utilisateur pour le sélecteur de thèmes.
 - `wallpapers/01-primary.png` : fond principal, sélectionné à la première activation.
 - `wallpapers/02-secondary.png` : fond alternatif, accessible via le sélecteur de wallpapers.
 
-Winarchy affiche le même fond sur tous les moniteurs ; « secondaire » désigne ici une alternative, pas un fond réservé au deuxième écran.
+Illium affiche le même fond sur tous les moniteurs ; « secondaire » désigne ici une alternative, pas un fond réservé au deuxième écran.
 
 ## Sources et droits
 

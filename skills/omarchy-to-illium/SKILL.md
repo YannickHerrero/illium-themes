@@ -1,17 +1,17 @@
 ---
-name: omarchy-to-winarchy
-description: Convert an Omarchy theme from a GitHub URL or local folder into an independently installable Winarchy theme pack, preserving terminal colors, theme-picker previews, wallpapers and source attribution. Use when the user asks to add, import, adapt, translate or convert an Omarchy theme for Winarchy (including the spelling winmarchy), or supplies an Omarchy theme repository URL.
-compatibility: Python 3.11+ for the optional palette helper. Windows winarchyctl with theme-pack support for installation; WSL can access it through PowerShell. No Omarchy installation required.
+name: omarchy-to-illium
+description: Convert an Omarchy theme from a GitHub URL or local folder into an independently installable Illium theme pack, preserving terminal colors, theme-picker previews, wallpapers and source attribution. Use when the user asks to add, import, adapt, translate or convert an Omarchy theme for Illium (including the spelling winmarchy), or supplies an Omarchy theme repository URL.
+compatibility: Python 3.11+ for the optional palette helper. Windows illiumctl with theme-pack support for installation; WSL can access it through PowerShell. No Omarchy installation required.
 ---
 
-# Omarchy → Winarchy
+# Omarchy → Illium
 
-Produce a native Winarchy data pack, not a copy of Omarchy application configuration. Keep all packs and this skill **outside the core Winarchy repository**. Never run scripts, hooks, Lua configuration or installer commands from an upstream theme.
+Produce a native Illium data pack, not a copy of Omarchy application configuration. Keep all packs and this skill **outside the core Illium repository**. Never run scripts, hooks, Lua configuration or installer commands from an upstream theme.
 
 ## 1. Locate the destination and establish scope
 
-- Locate the existing external theme collection and read its README, a representative pack, and the current Winarchy `docs/themes.md`. Do not assume the schema/limits below will never change.
-- On this installation the collection is `/home/yannick/dev/winarchy-themes`; Winarchy is `/home/yannick/dev/winarchy`.
+- Locate the existing external theme collection and read its README, a representative pack, and the current Illium `docs/themes.md`. Do not assume the schema/limits below will never change.
+- On this installation the collection is `/home/yannick/dev/illium-themes`; Illium is `/home/yannick/dev/illium`.
 - Use a pack identifier containing 1–64 lowercase ASCII letters, digits, `-` or `_`, e.g. `snow`. Keep a human-readable `name` inside the palette.
 - Check Git status and existing source/installed paths. Never overwrite an existing pack or user-modified theme without explicit agreement.
 - Adding/installing a theme does **not** authorize switching the current theme or restarting the daemon. Keep the current selection unless the user requests activation. Request/announce any live desktop tests and restore previous selection files afterward.
@@ -43,7 +43,7 @@ Read [references/mapping.md](references/mapping.md) before choosing overrides. S
 - If neither exists, inspect Ghostty/Kitty/other files manually; do not silently invent a palette or execute a theme's generators. Extend the helper only when a real input requires it, with tests.
 - Supply `--mode light|dark` if the source does not specify it. Never infer light mode from a name such as Snow alone.
 
-Verify all nine Winarchy UI colors and both eight-element terminal arrays. **Preserve intentional monochrome or unconventional ANSI colors.** Do not replace grayscale `red`, `green` or `yellow` with conventional hues. Review surface/overlay contrast, secondary text, selection and active workspace/launcher contrast; document all deviations from upstream in the pack README.
+Verify all nine Illium UI colors and both eight-element terminal arrays. **Preserve intentional monochrome or unconventional ANSI colors.** Do not replace grayscale `red`, `green` or `yellow` with conventional hues. Review surface/overlay contrast, secondary text, selection and active workspace/launcher contrast; document all deviations from upstream in the pack README.
 
 ## 4. Assemble the pack and preserve provenance
 
@@ -73,16 +73,16 @@ Verify all nine Winarchy UI colors and both eight-element terminal arrays. **Pre
 - Use the native installer for authoritative palette/image validation:
 
 ```powershell
-winarchyctl theme install "C:\Downloads\snow"
+illiumctl theme install "C:\Downloads\snow"
 ```
 
-From WSL, use PowerShell argument-safe invocation and a Windows-visible path such as `\\wsl.localhost\Debian\home\yannick\dev\winarchy-themes\snow`. Discover the actual distribution, executable and Windows profile; do not assume shell `$HOME` is the Windows user's home. Respect `WINARCHY_CONFIG_HOME` as seen by the Windows process.
+From WSL, use PowerShell argument-safe invocation and a Windows-visible path such as `\\wsl.localhost\Debian\home\yannick\dev\illium-themes\snow`. Discover the actual distribution, executable and Windows profile; do not assume shell `$HOME` is the Windows user's home. Respect `ILLIUM_CONFIG_HOME` as seen by the Windows process.
 
-Installed layout is `themes/<id>.toml`, `themes/<id>/preview.png` (or JPEG) and `themes/<id>/wallpapers/`. The palette shape keeps existing WezTerm integration working. The running Winarchy watcher discovers new packs; no rebuild/restart or base-repository edits are required.
+Installed layout is `themes/<id>.toml`, `themes/<id>/preview.png` (or JPEG) and `themes/<id>/wallpapers/`. The palette shape keeps existing WezTerm integration working. The running Illium watcher discovers new packs; no rebuild/restart or base-repository edits are required.
 
-- Compare installed palette, **preview**, wallpaper and provenance bytes/hashes against the reviewed pack. Update the collection's catalog and rights notes. Record whether the preview is a screenshot of Omarchy or just the author's artwork; neither is a live rendering of Winarchy.
+- Compare installed palette, **preview**, wallpaper and provenance bytes/hashes against the reviewed pack. Update the collection's catalog and rights notes. Record whether the preview is a screenshot of Omarchy or just the author's artwork; neither is a live rendering of Illium.
 - For an already-installed pack, do not reinstall/overwrite it to add a preview. Add only missing reviewed preview files with create-new semantics. Preserve installed palette, wallpapers and existing documentation; add a separate `PREVIEW-SOURCES.md` if needed. Compare current theme and wallpaper-selection files before/after to verify no activation.
-- For authorized live tests, poll `winarchyctl status`: acknowledgement is asynchronous, `wallpaper_pending` must become null and `wallpaper_error` must be absent. Do not mistake an old displayed wallpaper for completion of a new request. Restore original theme and `wallpapers.json` after testing.
+- For authorized live tests, poll `illiumctl status`: acknowledgement is asynchronous, `wallpaper_pending` must become null and `wallpaper_error` must be absent. Do not mistake an old displayed wallpaper for completion of a new request. Restore original theme and `wallpapers.json` after testing.
 - Verify Git author/email against the collection's existing history before committing. Use a separate atomic commit for each theme and another for skill changes. Do not create a remote or publish third-party artwork unless asked and permitted.
 
 ## 6. Report
@@ -92,5 +92,5 @@ State the installed identifier, light/dark mode, preview availability/source, wa
 In pi, reload skills with `/reload` after installation, then invoke:
 
 ```text
-/skill:omarchy-to-winarchy https://github.com/bjarneo/omarchy-snow-theme
+/skill:omarchy-to-illium https://github.com/bjarneo/omarchy-snow-theme
 ```

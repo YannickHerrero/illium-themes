@@ -8,7 +8,7 @@ No LICENSE or explicit licensing statement was present at this revision. No upst
 
 ## Picker preview
 
-`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (3840 × 2160). It depicts Omarchy, not Winarchy. No permission to redistribute this screenshot or its depicted third-party content is inferred; it remains part of the local personal adaptation described in README.md.
+`preview.png` is copied byte-for-byte from upstream `preview.png` at the revision above (3840 × 2160). It depicts Omarchy, not Illium. No permission to redistribute this screenshot or its depicted third-party content is inferred; it remains part of the local personal adaptation described in README.md.
 
 ## SHA-256 of source files
 

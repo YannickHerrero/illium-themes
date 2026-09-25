@@ -16,7 +16,7 @@ All repository files below were downloaded from `https://raw.githubusercontent.c
 - Format/dimensions: PNG, 2560 x 1440, RGBA (fully opaque); 2,372,859 bytes.
 - Source/installed SHA-256: `8604fbbbe8981cb2ec4d88afecd7f1dbd63e3ebf07f99aafd366e8be57de3ed7`.
 
-It is the same image referenced by the pinned README (`![Futurism preview](preview.png)`). It depicts an Omarchy desktop, not Winarchy.
+It is the same image referenced by the pinned README (`![Futurism preview](preview.png)`). It depicts an Omarchy desktop, not Illium.
 
 ## Wallpapers
 

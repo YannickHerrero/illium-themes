@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a reviewed-later Winarchy palette from local Omarchy TOML. No network."""
+"""Generate a reviewed-later Illium palette from local Omarchy TOML. No network."""
 import argparse
 import json
 import re
@@ -51,7 +51,7 @@ def convert(source, name, mode=None, ansi_source="auto", **overrides):
         ansi = [rgb(colors.get(k), k) for k in ansi_keys]
         brights = [rgb(colors.get(k), k) for k in bright_keys]
     primary = terminal.get("primary", {})
-    # Winarchy's shared default, not an inferred Omarchy application setting.
+    # Illium's shared default, not an inferred Omarchy application setting.
     palette = {"name": name, "mode": mode, "background_opacity": 0.85}
     defaults = {
         "background": colors.get("background", primary.get("background")),
@@ -71,7 +71,7 @@ def convert(source, name, mode=None, ansi_source="auto", **overrides):
 
 
 def render(palette):
-    lines = ["# Winarchy adaptation draft; see README.md and SOURCES.md for reviewed mapping."]
+    lines = ["# Illium adaptation draft; see README.md and SOURCES.md for reviewed mapping."]
     for key, value in palette.items():
         lines.append(f"{key} = {json.dumps(value, ensure_ascii=False)}")
     text = "\n".join(lines) + "\n"

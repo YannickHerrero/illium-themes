@@ -1,6 +1,6 @@
 # Previews and wallpaper assets
 
-Read the target Winarchy `docs/themes.md` and current pack installer before
+Read the target Illium `docs/themes.md` and current pack installer before
 importing: formats and limits may evolve. The palette helper deliberately only
 handles TOML; it does not download, copy, convert, install or activate images.
 
@@ -32,7 +32,7 @@ create an absent screenshot.
 
 ## Picker behavior to account for
 
-Winarchy recognizes static root `preview.png`, `preview.jpg`, `preview.jpeg`, in
+Illium recognizes static root `preview.png`, `preview.jpg`, `preview.jpeg`, in
 that priority. Avoid redundant variants unless there is a deliberate reason:
 installing a JPEG does not supersede an existing PNG. No TOML preview field is
 supported. Filenames are case-insensitive; a converted WebP should become PNG,
@@ -42,10 +42,10 @@ Without a dedicated preview, the picker uses the first alphabetically sorted
 wallpaper, not the saved wallpaper choice. Without any usable image a theme has
 no card. State this explicitly when no preview exists. Browsing never applies a
 theme; confirmation does. Upstream screenshots depict **Omarchy**, not a live
-preview of the user's Winarchy windows or applications.
+preview of the user's Illium windows or applications.
 
 The menu is **Alt+Shift+Space → Theme**; type to filter, browse with Left/Right
-or Tab/Shift+Tab, then Enter to apply. `winarchyctl theme picker` opens the same
+or Tab/Shift+Tab, then Enter to apply. `illiumctl theme picker` opens the same
 UI. The default Ctrl+Alt+Shift+Space shortcut may be absent from older user
 keybinding files; do not silently rewrite those files during an import.
 
@@ -58,7 +58,7 @@ is not one. Preserve all supported original bytes and descriptive filenames.
 When the upstream image format is unsupported (e.g. WebP):
 
 - Use a local decoder, such as Pillow, to convert to PNG without resizing or
-  cropping. Do not add a Winarchy runtime dependency merely to import one pack.
+  cropping. Do not add an Illium runtime dependency merely to import one pack.
 - Verify output dimensions and decoded RGBA pixel equality with the source.
   Conversion cannot recover losses already present in a lossy WebP/JPEG.
 - Record source/output paths and SHA-256 hashes, converter/version, and any
@@ -86,7 +86,7 @@ choices belong in README/SOURCES as well.
 
 ## Install and verify, without activation
 
-Use the upgraded native `winarchyctl theme install` for new packs. Verify that
+Use the upgraded native `illiumctl theme install` for new packs. Verify that
 `themes/<id>/preview.*` actually exists afterward and matches the reviewed image;
 also compare palettes, wallpapers and copied provenance. The directory watcher
 notices image additions, including inactive themes, without a restart.
@@ -95,6 +95,6 @@ Existing packs are never overwritten by the installer. To add a missing preview
 later, use exclusive/create-new file creation in the source and installed asset
 folders. Preserve any existing preview variants, palette, wallpapers and docs.
 If installed SOURCES.md has user changes, add `PREVIEW-SOURCES.md` rather than
-replacing it. Capture and compare `winarchy.toml` and `wallpapers.json` before and
+replacing it. Capture and compare `illium.toml` and `wallpapers.json` before and
 after. Adding an asset does not authorize selecting a theme, changing its saved
 wallpaper, restarting the daemon, or rewriting keyboard shortcuts.

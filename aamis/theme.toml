@@ -1,4 +1,4 @@
-# Winarchy adaptation of vyrx-dev/omarchy-aamis-theme; see README.md and SOURCES.md.
+# Illium adaptation of vyrx-dev/omarchy-aamis-theme; see README.md and SOURCES.md.
 name = "Aamis"
 mode = "dark"
 background_opacity = 0.85

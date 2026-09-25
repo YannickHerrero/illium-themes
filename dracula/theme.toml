@@ -1,4 +1,4 @@
-# Winarchy adaptation of dracula/omarchy. See SOURCES.md.
+# Illium adaptation of dracula/omarchy. See SOURCES.md.
 name = "Dracula"
 mode = "dark"
 background_opacity = 0.85
